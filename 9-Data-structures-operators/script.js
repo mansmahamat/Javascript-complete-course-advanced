@@ -27,3 +27,8 @@ const restaurant = {
     },
   },
 };
+
+
+const [first, second] = restaurant.categories
+
+console.log(first, second)
